@@ -1,7 +1,55 @@
-<html>
-<title>mixology</title>
+<!DOCTYPE html>
+<html lang= "en-US">
+ <head>
+ <meta charset = "UTF-8">
+ <script type = "text/javascript">
+  // from textBoxes.html
+  function sayHi(){
+  var txtName = document.getElementById("txtName");
+  var txtOutput = document.getElementById("txtOutput");
+  var name = txtName.value;
+    txtOutput.value = " " + name + ""
+  } // end sayHi
+ </script>
+ <link rel = "stylesheet"
+   type = "text/css"
+   href = "textBoxes.css" />
+ </head>
+<title>Mixology</title>
 <body>
-<h1>Here is a list of drinks your might like</h1>
-rootbeer and peppermint Schpanch
+<h1>Here is a list of drinks you might like</h1>
+rootbeer and peppermint Schpanch<br>
+Taquilla Sunrise<br>
+Manhatten<br>
+Vasper<br>
+<h2>Broken Leg</h2>
+1 Part Jim Beam Bourbon Whiskey<br>
+2 Part Hot Apple Cider<br>
+Combine ingredients in a large mug. Garnish with lemon Wedge and cinnamon stick.
+<h2>Mexican Mule</h2>
+1 part Sauza 901 Tequila<br>
+2 part Ginger Beer<br>
+1/2 Lime<br>
+Add ingredients and juice from half a lime over ice. Garnish with a fresh lime wedge.
+<h2>Sauza-Rita</h2>
+1 can Sauza Blue Silver Tequila<br>
+1 bottle Light Beer<br>
+1 can Frozen Lemonade<br>
+1 can Water<br>
+Pour limeade and beer into a pitcher with ice. Fill limeade can with Sauza Blue Silver and pour into pitcher. Finally, add a can of water, stir and enjoy. <em>If Sauza blue Silver is not available, try Sauza Silver.</em>
+<h2></h2>
+ <h1>Have Something To Say?</h1>
+ <form action = "">
+  <fieldset>
+  <label>Say It</label>
+  <input type = "text"
+    id = "txtName" />
+  <input type = "button"
+    value = "Submit"
+    onclick = "sayHi()"/>
+  <input type = "text"
+    id = "txtOutput" />
+  </fieldset>
+ </form>
 </body>
 </html>
